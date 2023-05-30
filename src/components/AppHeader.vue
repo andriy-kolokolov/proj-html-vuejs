@@ -5,7 +5,7 @@
     </div>
   </div>
   <div class="nav-wrapper container-fluid">
-    <header-navigation/>
+    <header-navigation class="header-navigation"/>
     <header-hero/>
   </div>
 </template>
@@ -25,4 +25,10 @@ export default {
 
 .timer-wrapper
   background-color: $palette-light
+  font-size: 14px
+
+.header-navigation
+  font-size: $navbar-font-size
+  font-weight: 500
+
 </style>

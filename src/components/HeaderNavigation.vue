@@ -115,8 +115,8 @@ export default {
 
 @media (min-width: 768px)
   .animate
-    animation-duration: 0.5s
-    -webkit-animation-duration: 0.5s
+    animation-duration: 0.4s
+    -webkit-animation-duration: 0.4s
     animation-fill-mode: both
     -webkit-animation-fill-mode: both
 
@@ -151,17 +151,23 @@ export default {
     height: 40px
 
 .nav-link.dropdown-toggle
-  transition: .4s
+  transition: $link-transition
 
   &:hover
-    color: $palette-orange
+    color: $palette-light-blue
 
 .socials
   .nav-link
-    transition: .4s
+    transition: $link-transition
 
     &:hover
-      color: $palette-orange
+      color: $palette-light-blue
 
+.dropdown-item
+  transition: $link-transition
+
+  &:hover
+    color: white
+    background-color: $palette-light-blue
 
 </style>
