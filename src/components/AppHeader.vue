@@ -6,15 +6,16 @@
   </div>
   <div class="nav-wrapper container-fluid">
     <header-navigation/>
+    <header-hero/>
   </div>
 </template>
 
 <script>
 import {HeaderTimer} from "./UI/index.js"
 import HeaderNavigation from "./HeaderNavigation.vue";
-
+import HeaderHero from "./HeaderHero.vue";
 export default {
-  components: {HeaderNavigation, HeaderTimer}
+  components: {HeaderNavigation, HeaderTimer, HeaderHero}
 }
 </script>
 

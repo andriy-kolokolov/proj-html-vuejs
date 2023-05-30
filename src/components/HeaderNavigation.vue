@@ -1,8 +1,8 @@
 <template>
   <div class="navbar navbar-expand-lg">
-    <div class="container-fluid d-flex justify-content-between">
+    <div class="container d-flex justify-content-between">
       <!-- Logo -->
-      <a class="navbar-brand" href="#"><strong>Max</strong>Coach</a>
+      <a class="navbar-brand" href="#"><img src="../assets/img/dark-logo.png" alt=""></a>
 
       <!-- Links -->
       <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
@@ -82,7 +82,7 @@
       </div>
 
       <!-- Social Icons -->
-      <ul class="navbar-nav d-none d-md-flex flex-row">
+      <ul class="navbar-nav d-none d-md-flex flex-row socials">
         <li class="nav-item">
           <a class="nav-link" href="#"><i class="fa-brands fa-twitter"></i></a>
         </li>
@@ -110,6 +110,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+
+@use "../assets/main" as *
+
 @media (min-width: 768px)
   .animate
     animation-duration: 0.5s
@@ -142,8 +145,23 @@ export default {
   -webkit-animation-name: slideIn
   animation-name: slideIn
 
-/* Other styles for the page not related to the animated dropdown */
+.navbar-brand
+  img
+    padding: 10px
+    height: 40px
 
+.nav-link.dropdown-toggle
+  transition: .4s
+
+  &:hover
+    color: $palette-orange
+
+.socials
+  .nav-link
+    transition: .4s
+
+    &:hover
+      color: $palette-orange
 
 
 </style>
