@@ -22,6 +22,6 @@ export default {
 
 @use '../assets/main' as *
 
-.timer
+.timer-wrapper
   background-color: $palette-light
 </style>
