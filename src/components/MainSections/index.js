@@ -5,10 +5,12 @@ import SectionSubscribe from "./SectionSubscribe.vue";
 import SectionTestimonials from "./SectionTestimonials.vue";
 import SectionTips from "./SectionTips.vue";
 import SectionUpcomingEvents from "./SectionUpcomingEvents.vue";
+import SectionYoutube from "./SectionYoutube.vue";
 
 export {
-    SectionBio,
     SectionFirst,
+    SectionBio,
+    SectionYoutube,
     SectionOnlineCourses,
     SectionSubscribe,
     SectionTestimonials,

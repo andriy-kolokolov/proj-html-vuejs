@@ -7,6 +7,10 @@
     <section-bio/>
   </section>
 
+  <section class="section section-youtube">
+    <section-youtube/>
+  </section>
+
   <section class="section section-testimonials">
     <section-testimonials/>
   </section>
@@ -32,6 +36,7 @@
 import {
   SectionFirst,
   SectionBio,
+  SectionYoutube,
   SectionTestimonials,
   SectionOnlineCourses,
   SectionTips,
@@ -41,6 +46,7 @@ import {
 
 export default {
   components: {
+    SectionYoutube,
     SectionFirst,
     SectionBio,
     SectionTestimonials,
