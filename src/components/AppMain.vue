@@ -1,33 +1,33 @@
 <template>
-  <section class="section section-first">
+  <section id="section-first" class="section section-first">
     <section-first/>
   </section>
 
-  <section class="section section-bio">
+  <section id="section-bio" class="section section-bio">
     <section-bio/>
   </section>
 
-  <section class="section section-youtube">
+  <section id="section-youtube" class="section section-youtube">
     <section-youtube/>
   </section>
 
-  <section class="section section-testimonials">
+  <section id="section-testimonials" class="section section-testimonials">
     <section-testimonials/>
   </section>
 
-  <section class="section section-online-courses">
+  <section id="section-online-courses" class="section section-online-courses">
     <section-online-courses/>
   </section>
 
-  <section class="section section-tips">
+  <section id="section-tips" class="section section-tips">
     <section-tips/>
   </section>
 
-  <section class="section section-upcoming-events">
+  <section id="section-upcoming-events" class="section section-upcoming-events">
     <section-upcoming-events/>
   </section>
 
-  <section class="section section-subscribe">
+  <section id="section-subscribe" class="section section-subscribe">
     <section-subscribe/>
   </section>
 </template>

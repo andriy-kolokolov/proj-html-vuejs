@@ -25,10 +25,14 @@
               Pages
             </a>
             <ul class="dropdown-menu animate slideIn">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#section-first">Work</a></li>
+              <li><a class="dropdown-item" href="#section-bio">Bio</a></li>
+              <li><a class="dropdown-item" href="#section-youtube">Youtube</a></li>
+              <li><a class="dropdown-item" href="#section-testimonials">Testimonials</a></li>
+              <li><a class="dropdown-item" href="#section-online-courses">Online Courses</a></li>
+              <li><a class="dropdown-item" href="#section-tips">Tips</a></li>
+              <li><a class="dropdown-item" href="#section-upcoming-events">Upcoming Events</a></li>
+              <li><a class="dropdown-item" href="#section-subscribe">Subscribe</a></li>
             </ul>
           </li>
 
