@@ -4,7 +4,7 @@
       <header-timer/>
     </div>
   </div>
-  <div class="nav-wrapper container-fluid">
+  <div class="container-fluid nav-wrapper ">
     <header-navigation class="header-navigation"/>
     <header-hero/>
   </div>

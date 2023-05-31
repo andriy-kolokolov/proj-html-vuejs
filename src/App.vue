@@ -15,10 +15,10 @@
 </template>
 
 <script>
-import {AppHeader, AppMain, AppFooter, MainSection} from "./components/index.js"
+import {AppHeader, AppMain, AppFooter} from "./components/index.js"
 
 export default {
-  components: {AppHeader, AppMain, AppFooter, MainSection}
+  components: {AppHeader, AppMain, AppFooter}
 }
 
 
