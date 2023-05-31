@@ -52,7 +52,12 @@
         </ul>
       </div>
       <div class="col">
-        <div class="d-flex gap-3"><h4>Instagramm</h4><span class="social-link-actor">@maxcoach</span></div>
+        <div class="d-flex gap-3"><h4>Instagramm</h4><span class="social-link-coach">@maxcoach</span></div>
+        <div class="img-wrapper d-flex gap-3">
+          <img src="../assets/img/120084500_197897808368764_8114555493043279565_n.jpg" alt="">
+          <img src="../assets/img/120012142_177596140500760_8623485824101406058_n.jpg" alt="">
+          <img src="../assets/img/120099363_364334431619755_7198812647386067017_n.jpg" alt="">
+        </div>
       </div>
     </div>
   </div>
@@ -75,7 +80,13 @@ ul
       opacity: 1
 
 
-.social-link-actor
+.social-link-coach
   color: orange
   cursor: pointer
+
+.img-wrapper
+
+  img
+    height: 100px
+
 </style>
