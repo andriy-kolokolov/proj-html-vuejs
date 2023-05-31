@@ -69,6 +69,7 @@ export default {
   font-size: $section-title-font-size
 
 .grid
+  margin-top: 30px
   display: grid
   grid-template-columns: repeat(4, 1fr)
   gap: 20px
@@ -82,6 +83,11 @@ export default {
     transition: .5s
     cursor: pointer
     border: 1px solid transparent
+  .card-price
+    font-size: 16px
+    font-weight: bold
+  .card-name
+    font-size: 16px
 
   &:hover
     transition: .5s

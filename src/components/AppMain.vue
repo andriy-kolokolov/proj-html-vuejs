@@ -18,10 +18,10 @@
   <section id="section-online-courses" class="section section-online-courses">
     <section-online-courses/>
   </section>
-
-  <section id="section-tips" class="section section-tips">
-    <section-tips/>
-  </section>
+<!--    TODO    -->
+<!--  <section id="section-tips" class="section section-tips">-->
+<!--    <section-tips/>-->
+<!--  </section>-->
 
   <section id="section-upcoming-events" class="section section-upcoming-events">
     <section-upcoming-events/>

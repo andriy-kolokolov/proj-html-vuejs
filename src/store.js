@@ -47,51 +47,80 @@ export const store = reactive({
         {
             img: 'src/assets/img/artist-course-07-480x480.jpg',
             price: '21.00',
-            name: 'The Acrylic Painting Academy',
+            name: 'Drawing and Shading Complete Course',
             lessons: 9,
             students: 50
         },
         {
             img: 'src/assets/img/artist-course-06-480x480.jpg',
             price: '19.00',
-            name: 'The Acrylic Painting Academy',
+            name: 'The Color Theory for Digital Artists',
             lessons: 12,
             students: 50
         },
         {
             img: 'src/assets/img/artist-course-05-480x480.jpg',
             price: '35.00',
-            name: 'The Acrylic Painting Academy',
+            name: 'Ultimate Guide to Digital Sketching for Beginner',
             lessons: 7,
             students: 50
         },
         {
             img: 'src/assets/img/artist-course-04-480x480.jpg',
             price: '19.00',
-            name: 'The Acrylic Painting Academy',
+            name: 'Portrait Drawing The Smart Way',
             lessons: 4,
             students: 50
         },
         {
             img: 'src/assets/img/artist-course-03-480x480.jpg',
             price: '19.00',
-            name: 'The Acrylic Painting Academy',
+            name: 'Master Watercolor Painting from Beginner',
             lessons: 4,
             students: 50
         },
         {
             img: 'src/assets/img/artist-course-02-480x480.jpg',
             price: '25.00',
-            name: 'The Acrylic Painting Academy',
+            name: 'The Art & Science of Drawing',
             lessons: 4,
             students: 50
         },
         {
             img: 'src/assets/img/artist-course-01-480x480.jpg',
             price: '22.00',
-            name: 'The Acrylic Painting Academy',
+            name: 'The Colored Pencil Drawing Course',
             lessons: 6,
             students: 50
+        },
+    ],
+
+    // UPCOMING EVENTS
+
+    upcomingEvents: [
+        {
+          img: 'src/assets/img/artist-event-04-250x300.jpg',
+          date: 'NOV 22, 2020',
+          title: 'Storytelling Workshop',
+          location: 'Texas, US'
+        },
+        {
+            img: 'src/assets/img/120012142_177596140500760_8623485824101406058_n.jpg',
+            date: 'NOV 23, 2020',
+            title: 'Painting Art Contest',
+            location: 'New York, US'
+        },
+        {
+            img: 'src/assets/img/120099363_364334431619755_7198812647386067017_n.jpg',
+            date: 'OCT 10, 2020',
+            title: 'International Art Fair 2020',
+            location: 'Hamburg, Germany'
+        },
+        {
+            img: 'src/assets/img/artist-event-01-250x300.jpg',
+            date: 'DEC 15, 2020',
+            title: 'Street Performance: Call for Artist',
+            location: 'Illinois, US'
         },
     ]
 });
