@@ -33,4 +33,65 @@ export const store = reactive({
             userImage: 'src/assets/img/artist-testimonial-avatar-04.jpg'
         }
     ],
+
+    // COURSES
+
+    latestCourses: [
+        {
+            img: 'src/assets/img/artist-course-08-480x480.jpg',
+            price: '18.00',
+            name: 'The Acrylic Painting Academy',
+            lessons: 4,
+            students: 50
+        },
+        {
+            img: 'src/assets/img/artist-course-07-480x480.jpg',
+            price: '21.00',
+            name: 'The Acrylic Painting Academy',
+            lessons: 9,
+            students: 50
+        },
+        {
+            img: 'src/assets/img/artist-course-06-480x480.jpg',
+            price: '19.00',
+            name: 'The Acrylic Painting Academy',
+            lessons: 12,
+            students: 50
+        },
+        {
+            img: 'src/assets/img/artist-course-05-480x480.jpg',
+            price: '35.00',
+            name: 'The Acrylic Painting Academy',
+            lessons: 7,
+            students: 50
+        },
+        {
+            img: 'src/assets/img/artist-course-04-480x480.jpg',
+            price: '19.00',
+            name: 'The Acrylic Painting Academy',
+            lessons: 4,
+            students: 50
+        },
+        {
+            img: 'src/assets/img/artist-course-03-480x480.jpg',
+            price: '19.00',
+            name: 'The Acrylic Painting Academy',
+            lessons: 4,
+            students: 50
+        },
+        {
+            img: 'src/assets/img/artist-course-02-480x480.jpg',
+            price: '25.00',
+            name: 'The Acrylic Painting Academy',
+            lessons: 4,
+            students: 50
+        },
+        {
+            img: 'src/assets/img/artist-course-01-480x480.jpg',
+            price: '22.00',
+            name: 'The Acrylic Painting Academy',
+            lessons: 6,
+            students: 50
+        },
+    ]
 });
