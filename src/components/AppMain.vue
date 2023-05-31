@@ -18,10 +18,10 @@
   <section id="section-online-courses" class="section section-online-courses">
     <section-online-courses/>
   </section>
-<!--    TODO    -->
-<!--  <section id="section-tips" class="section section-tips">-->
-<!--    <section-tips/>-->
-<!--  </section>-->
+  <!--    TODO    -->
+  <!--  <section id="section-tips" class="section section-tips">-->
+  <!--    <section-tips/>-->
+  <!--  </section>-->
 
   <section id="section-upcoming-events" class="section section-upcoming-events">
     <section-upcoming-events/>
@@ -59,6 +59,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@use '../assets/main' as *
 .section
-  padding: 75px 0
+  padding: $section-padding
 </style>
