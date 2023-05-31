@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row-cols-4 d-flex flex-row lh-lg">
       <div class="col">
-        <div class="fw-bold fs-5">Adress</div>
+        <div class="fw-bold fs-5">Address</div>
         <div class="info">
           <div>382 NE 191st St # 87394 Miami, FL 33179-3899</div>
           <div>+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday) </div>
@@ -60,6 +60,8 @@
         </div>
       </div>
     </div>
+
+    <p class="text-center rights">@2020 Maxcoach. All Rights Reserved</p>
   </div>
 </template>
 
@@ -88,5 +90,7 @@ ul
 
   img
     height: 100px
-
+.rights
+  padding: 40px
+  opacity: .5
 </style>
